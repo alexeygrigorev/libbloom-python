@@ -1,6 +1,6 @@
-# LIBBLOOM-Python
+# LibBloom-Python
 
-Fast bloom filter implementation with Python bindings 
+Fast bloom filters implementation with Python bindings 
 
 The implementation is based on [bloomfilter.js](https://github.com/jasondavies/bloomfilter.js) - and it's (almost) a direct translaslation form JavaScript to C.
 
@@ -33,7 +33,7 @@ export PATH=$PATH:$CMAKE_HOME/bin
 
 ### Bulding it
 
-To build the binaries:
+Build the binaries:
 
 ```bash
 mkdir build && cd build
