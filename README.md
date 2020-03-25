@@ -9,11 +9,11 @@ The implementation is based on [bloomfilter.js](https://github.com/jasondavies/b
 ```python
 import pyfvnbloom
 
-bf = pyfvnbloom.create_empty(capacity=1000, error_rate=0.01)                                                    
-bf.add('ololo')                                                                                                 
+bf = pyfvnbloom.create_empty(capacity=1000, error_rate=0.01)
+bf.add('ololo')
 
-assert 'ololo' in bf                                                                                            
-assert 'lol' not in bf                                                                                          
+assert 'ololo' in bf
+assert 'lol' not in bf
 ```
 
 
